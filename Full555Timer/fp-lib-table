@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Full555Timer)(type KiCad)(uri "E:/Projects/6502 build/PCBs/Full555Timer")(options "")(descr ""))
+)
