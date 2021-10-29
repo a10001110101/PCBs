@@ -1,0 +1,20 @@
+** Drc report for E:\Projects\6502 build\PCBs\555Timer\555Timer.kicad_pcb **
+** Created on  **
+
+** Found 4 DRC errors **
+ErrType(19): Pad too close to pad
+    @(118.380 mm, 85.852 mm): Pad 2 of J2 on All copper layers
+    @(119.380 mm, 85.852 mm): Pad 1 of J2 on All copper layers
+ErrType(53): Track too close to board edge
+    @(159.129 mm, 70.358 mm): Track 0.250 mm [Net-(R2-Pad2)] on B.Cu, length: 8.890 mm
+ErrType(53): Track too close to board edge
+    @(159.129 mm, 79.248 mm): Track 0.250 mm [Net-(R2-Pad2)] on B.Cu, length: 1.437 mm
+ErrType(53): Track too close to board edge
+    @(159.129 mm, 70.358 mm): Track 0.250 mm [Net-(R2-Pad2)] on B.Cu, length: 1.078 mm
+
+** Found 1 unconnected pads **
+ErrType(2): Unconnected items
+    @(140.716 mm, 77.978 mm): Pad 4 of U1 on All copper layers
+    @(133.096 mm, 70.358 mm): Pad 8 of U1 on All copper layers
+
+** End of Report **
