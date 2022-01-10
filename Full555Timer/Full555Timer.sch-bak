@@ -506,8 +506,6 @@ F 3 "" H 3950 2850 50  0001 C CNN
 	1    3950 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 2625 3950 2675
 $Comp
 L Device:R_Small_US R3
 U 1 1 5F76C247
@@ -635,8 +633,6 @@ F 3 "" H 7000 2775 50  0001 C CNN
 	1    7000 2775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 2200 7000 2500
 $Comp
 L Device:C_Small C6
 U 1 1 5F791369
@@ -732,19 +728,11 @@ Wire Wire Line
 Wire Wire Line
 	4600 4325 5075 4325
 Wire Wire Line
-	2950 1600 2950 1800
-Wire Wire Line
 	2950 3425 2550 3425
 Wire Wire Line
 	2550 3425 2550 3700
 Wire Wire Line
 	2550 3700 2800 3700
-Connection ~ 2950 1800
-Wire Wire Line
-	2950 1800 2950 2000
-Connection ~ 2950 2000
-Wire Wire Line
-	2950 2000 2950 2925
 Wire Wire Line
 	7500 1600 7850 1600
 Wire Wire Line
@@ -778,7 +766,6 @@ Text Notes 2475 3900 0    50   ~ 0
 Bistable
 Wire Wire Line
 	2875 2925 2950 2925
-Connection ~ 2950 2925
 Wire Wire Line
 	2950 2925 2950 3425
 $Comp
@@ -865,11 +852,6 @@ Wire Wire Line
 	7350 2200 7150 2200
 Wire Wire Line
 	7150 2200 7150 2300
-Wire Wire Line
-	7150 2500 7000 2500
-Connection ~ 7000 2500
-Wire Wire Line
-	7000 2500 7000 2700
 Wire Wire Line
 	7650 2200 7850 2200
 Connection ~ 7850 2200
@@ -1064,13 +1046,6 @@ Wire Wire Line
 	7500 4425 6250 4425
 Wire Wire Line
 	4575 2200 4575 2775
-Wire Wire Line
-	4725 2675 3950 2675
-Wire Wire Line
-	4725 2525 4725 2675
-Connection ~ 3950 2675
-Wire Wire Line
-	3950 2675 3950 2775
 Wire Wire Line
 	3275 2475 3275 2775
 Wire Wire Line
@@ -1411,4 +1386,19 @@ Text Notes 3125 7825 0    50   ~ 0
 Pull-up Resistors
 Text Notes 1000 5825 0    50   ~ 0
 Pull-up Resistors
+Wire Wire Line
+	3950 2625 3950 2775
+Wire Wire Line
+	4725 2850 3950 2850
+Wire Wire Line
+	4725 2525 4725 2850
+Connection ~ 2950 2925
+Wire Wire Line
+	2950 1600 2950 2925
+Wire Wire Line
+	7000 2200 7000 2700
+Wire Wire Line
+	7150 2500 7150 2775
+Wire Wire Line
+	7150 2775 7000 2775
 $EndSCHEMATC
